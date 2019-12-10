@@ -8,3 +8,4 @@ edition = "2018"
 [dependencies]
 toy_nn_lib = { path = "toy_nn_lib" }
 ggez = "0.5"
+rand = "0.7.2"

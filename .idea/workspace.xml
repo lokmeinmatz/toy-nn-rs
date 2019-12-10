@@ -14,11 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d5fd0d-72b3-4126-a704-3b0820207f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/borders.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cars.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_maths.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interval.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/borders.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/borders.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cars.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cars.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_maths.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_maths.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Rust/Rust_Projects/spotify-lite" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunDashboard">
@@ -62,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cargo Command.Check Project">
+  <component name="RunManager" selected="Cargo Command.Run toy_nn_rs">
     <configuration name="Check Project" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="check" />
@@ -70,6 +73,19 @@
       <option name="nocapture" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run release" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --release" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="NO" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <method v="2">
@@ -91,7 +107,7 @@
     </configuration>
     <configuration name="Run toy_nn_rs_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package toy_nn_rs --bin toy_nn_rs_test" />
+      <option name="command" value="test" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -102,13 +118,14 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+    <configuration name="Test game_maths::test_maths" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run" />
+      <option name="command" value="test --package toy_nn_rs --bin toy_nn_rs game_maths::test_maths -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
@@ -116,18 +133,22 @@
     </configuration>
     <list>
       <item itemvalue="Cargo Command.Check Project" />
+      <item itemvalue="Cargo Command.Run release" />
       <item itemvalue="Cargo Command.Run toy_nn_rs" />
       <item itemvalue="Cargo Command.Run toy_nn_rs_test" />
+      <item itemvalue="Cargo Command.Test game_maths::test_maths" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo Command.Run toy_nn_rs" />
         <item itemvalue="Cargo Command.Run toy_nn_rs_test" />
+        <item itemvalue="Cargo Command.Test game_maths::test_maths" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,6 +158,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574804417804</updated>
       <workItem from="1574804420869" duration="4380000" />
+      <workItem from="1574878873027" duration="5686000" />
+      <workItem from="1574953153993" duration="3857000" />
+      <workItem from="1574959538750" duration="1764000" />
+      <workItem from="1574967582564" duration="14450000" />
+      <workItem from="1575026239133" duration="3932000" />
+      <workItem from="1575069186227" duration="3237000" />
+      <workItem from="1575322906305" duration="195000" />
+      <workItem from="1575323142555" duration="53000" />
     </task>
     <servers />
   </component>
@@ -145,7 +174,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
